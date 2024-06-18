@@ -1,0 +1,23 @@
+{
+  "name": "full_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node --presets @babel/preset-env ./full_server/server.js ./database.csv"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs/promises": "^0.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.8",
+    "nodemon": "^2.0.7"
+  },
+  "author": "Alphy",
+  "license": "ISC"
+}
+
